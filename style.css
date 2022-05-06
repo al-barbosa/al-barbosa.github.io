@@ -1,0 +1,41 @@
+body{
+    background-color: hsl(243, 95%, 8%);
+    font-family: monospace;
+    font-size: 1.05em;
+}
+
+h1{
+    color: #f210b6;
+}
+
+h3{
+    color: #f210b6;
+}
+
+a{
+    color: rgb(239, 142, 51);
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+li{
+    color: white;
+}
+
+#resumo{
+    background-color: #3c258b;
+}
+
+#habilidades{
+    background-color: #3c258b;
+}
+
+#habilidades-futuras{
+    background-color: #3c258b;
+}
+
+#foto-perfil{
+    border-radius: 50%;
+}
