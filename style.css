@@ -24,16 +24,10 @@ li{
     color: white;
 }
 
-#resumo{
+#resumo, #habilidades, #habilidades-futuras{
     background-color: #3c258b;
-}
-
-#habilidades{
-    background-color: #3c258b;
-}
-
-#habilidades-futuras{
-    background-color: #3c258b;
+    padding: 0px 10px;
+    border-radius: ;
 }
 
 #foto-perfil{
