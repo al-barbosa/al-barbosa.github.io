@@ -16,20 +16,44 @@ a{
     color: rgb(239, 142, 51);
 }
 
-p{
+p, li{
     color: rgb(255, 255, 255);
 }
 
-li{
-    color: white;
+#habilidades li:nth-child(odd), #habilidades-futuras li:nth-child(odd){
+    color: black;
 }
 
-#resumo, #habilidades, #habilidades-futuras{
+#habilidades, #habilidades-futuras{
     background-color: #3c258b;
     padding: 0px 10px;
-    border-radius: ;
+    width: 80%;
+    border: 2px solid;
 }
 
 #foto-perfil{
     border-radius: 50%;
+    width: 200px;
+    padding: 8px;
+    background-color: #f210b6;
+    float: left;
+    z-index: 1;
+}
+
+#resumo{
+    padding: 0px 10px;
+    position: absolute;
+    left: 250px;
+    z-index: 2;
+    width: 50%;
+}
+
+#perfil{
+    display: inline-block;
+    background-color: #3c258b;
+    width: 82%;
+}
+
+#nome{
+    text-align: center;
 }
