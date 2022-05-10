@@ -1,33 +1,33 @@
 body{
-    background-color: hsl(243, 95%, 8%);
+    background-color: #1d1d1e;
     font-family: monospace;
     font-size: 1.05em;
 }
 
 h1{
-    color: #f210b6;
+    color: #9d4412;
 }
 
 h3{
-    color: #f210b6;
+    color: #c25f23;
 }
 
 a{
-    color: rgb(239, 142, 51);
+    color: #c25f23;
 }
 
 p, li{
-    color: rgb(255, 255, 255);
+    color: #d3cdc0;
 }
 
 #habilidades li:nth-child(odd), #habilidades-futuras li:nth-child(odd){
-    color: black;
+    color: #1d1d1e;
 }
 
 #habilidades, #habilidades-futuras{
-    background-color: #3c258b;
+    background-color: #565654;
     padding: 0px 10px;
-    width: 80%;
+    width: 85%;
     border: 2px solid;
 }
 
@@ -35,7 +35,7 @@ p, li{
     border-radius: 50%;
     width: 200px;
     padding: 8px;
-    background-color: #f210b6;
+    background-color: #61361e;
     float: left;
     z-index: 1;
 }
@@ -50,8 +50,10 @@ p, li{
 
 #perfil{
     display: inline-block;
-    background-color: #3c258b;
-    width: 82%;
+    padding: 10px;
+    background-color: #565654;
+    width: 85%;
+    border: 2px solid;
 }
 
 #nome{
