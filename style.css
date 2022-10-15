@@ -1,61 +1,61 @@
 body{
-    background-color: #1d1d1e;
-    font-family: monospace;
-    font-size: 1.05em;
+    background-color: rgb(218, 207, 188);
+    font-family: 'Work Sans', sans-serif;
 }
 
-h1{
-    color: #9d4412;
+a {
+    color: rgb(218, 207, 188);
+    text-decoration: none;
 }
 
-h3{
-    color: #c25f23;
+header {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
 }
 
-a{
-    color: #c25f23;
+#upper-head {
+    background-color: rgb(69, 107, 161);
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
 }
 
-p, li{
-    color: #d3cdc0;
+#profile-pic {
+    width: 175px;
+    height: 175px;
 }
 
-#habilidades li:nth-child(odd), #habilidades-futuras li:nth-child(odd){
-    color: #1d1d1e;
+#name-head {
+    color: rgb(218, 207, 188);
+    font-family: 'Limelight', cursive;
+    font-size: 70px;
 }
 
-#habilidades, #habilidades-futuras{
-    background-color: #565654;
-    padding: 0px 10px;
-    width: 85%;
-    border: 2px solid;
+#lower-head {
+    align-items: center;
+    background-color: rgb(90, 90, 90);
+    color: rgb(218, 207, 188);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
 }
 
-#foto-perfil{
-    border-radius: 50%;
-    width: 200px;
-    padding: 8px;
-    background-color: #61361e;
-    float: left;
-    z-index: 1;
+#lower-left {
+    display: flex;
+    flex-direction: column;
 }
 
-#resumo{
-    padding: 0px 10px;
-    position: absolute;
-    left: 250px;
-    z-index: 2;
-    width: 50%;
+#lower-right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
 
-#perfil{
-    display: inline-block;
-    padding: 10px;
-    background-color: #565654;
-    width: 85%;
-    border: 2px solid;
+#address-title {
+    font-size: 35px;
 }
 
-#nome{
-    text-align: center;
+.social-logo {
+    width: 30px;
 }
